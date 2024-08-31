@@ -1,21 +1,20 @@
-# 🕵️‍♂️ The Ultimate Backdoor: Remote File Access Bot 💀
+# Remote File Access Bot
 
-we got Remote File Access Bot here.
-Whether you're looking to “audit” your own systems (or someone else) to access “your own” files remotely, this bot has got you covered. Built for macOS, Windows, and Linux, this tool works everywhere.
+Introducing the **Remote File Access Bot**. Whether you're looking to “audit” your own systems (or someone else’s) to access “your own” files remotely, this bot has got you covered. Built for macOS, Windows, and Linux, this tool works everywhere.
 
-## 💻 What This Bot Can Do (aka, Why You Should Be Very Afraid)
+## 💻 What This Bot Can Do
 
 With this little bot, you can:
 
-- **List Files** (`/ls`): Peek inside any directory. Imagine being able to see all the secrets, neatly listed for your convenience. It’s like having x-ray vision but for directories.
-  
+- **List Files** (`/ls`): Peek inside any directory. Imagine being able to see all the secrets, neatly listed for your convenience. It’s like having x-ray vision, but for directories.
+
 - **Read Files** (`/cat <filename>`): Open and read files remotely. Because who needs privacy, right? Curiosity might kill the cat, but satisfaction brought it back.
 
 - **Download Files** (`/get <filename>`): Snatch any file off the system. Like taking candy from a baby, only the baby is a computer, and the candy is potentially incriminating data.
 
 - **Download Directories as ZIP** (`/get_dir_zip <directory>`): Grab entire directories in one swoop. For when you’re in a hurry and need everything—**now**.
 
-- **Download Directories Recursively** (`/get_dir <directory>`): Download every single file in a directory, one by one. Because sometimes, patience is a virtue...and sometimes it's a strategy.
+- **Download Directories Recursively** (`/get_dir <directory>`): Download every single file in a directory, one by one. Because sometimes, patience is a virtue... and sometimes it's a strategy.
 
 - **Show Directory Structure** (`/structure`): Visualize the entire directory structure. Mapping out your new territory has never been so easy.
 
@@ -26,6 +25,7 @@ With this little bot, you can:
 ## 🔧 Installation Instructions
 
 1. **Clone This Repository**: Because every hacker worth their salt has a collection of backdoors.
+   
    ```bash
    git clone https://github.com/pavan-srikar/Rfiles.git
    ```
@@ -36,44 +36,41 @@ With this little bot, you can:
    pip install python-telegram-bot
    ```
 
-3. Create Your Telegram Bot
-Open Telegram and start a chat with BotFather. If you've never heard of BotFather, think of him as the godfather of bots. He makes offers you can't refuse.
+3. **Create Your Telegram Bot**:  
+   Open Telegram and start a chat with **BotFather**. If you've never heard of BotFather, think of him as the godfather of bots. He makes offers you can't refuse.
 
-Use the command /newbot and follow the instructions to create your bot.
+   - Use the command `/newbot` and follow the instructions to create your bot.
+   - BotFather will give you a token, something like `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11`. Keep it safe. Treat it like a password to your secret lair.
 
-BotFather will give you a token, something like 123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11. Keep it safe. Treat it like a password to your secret lair.
+   Replace the placeholder in the bot script with your token:
 
-Replace the placeholder in the bot script with your token:
-
-python
-Copy code
-BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
-
-4. Run the Bot as python script or create executable using pyinstaller
-Execute the script on macOS, Windows, or Linux. Cross-platform infiltration has never been easier.
-
-bash
-Copy code
-python remote_file_access_bot.py
-Congratulations! Your bot is now running, ready to do your bidding.
-
-5. Create an Executable with PyInstaller
-Because nothing says “professional” like a standalone executable. Here’s how to do it:
-
-Install PyInstaller: If you don't have it already, install it using pip.
-
-bash
-Copy code
-pip install pyinstaller
-Create the Executable: Run the following command in your terminal. It will bundle your bot script into a single executable file.
-
-bash
-Copy code
-pyinstaller --onefile remote_file_access_bot.py
-This command will create a dist directory with your shiny new executable inside. Now you can distribute it like the digital candy it is.
-
-
+   ```python
+   BOT_TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN'
    ```
+
+4. **Run the Bot**: As a Python script or create an executable using PyInstaller. Execute the script on macOS, Windows, or Linux. Cross-platform infiltration has never been easier.
+
+   ```bash
+   python remote_file_access_bot.py
+   ```
+
+   Congratulations! Your bot is now running, ready to do your bidding.
+
+5. **Create an Executable with PyInstaller**: Because nothing says “professional” like a standalone executable. Here’s how to do it:
+
+   - Install PyInstaller: If you don't have it already, install it using pip.
+
+     ```bash
+     pip install pyinstaller
+     ```
+
+   - Create the Executable: Run the following command in your terminal. It will bundle your bot script into a single executable file.
+
+     ```bash
+     pyinstaller --onefile remote_file_access_bot.py
+     ```
+
+     This command will create a `dist` directory with your shiny new executable inside. Now you can distribute it like the digital candy it is.
 
 ## 📚 Commands Cheat Sheet
 
@@ -95,9 +92,18 @@ This tool is intended for *authorized* testing and administrative purposes only.
 
 ---
 
-**Note**: If you get caught, remember: we know nothing, we saw nothing, and we definitely didn’t help you. 
+**Note**: If you get caught, remember: we know nothing, we saw nothing, and we definitely didn’t help you.
 
 ---
-![Alt text](/images/image1.png)
-![Alt text](/images/image2.png)
-There you have it! 
+
+## 📸 Screenshots
+
+Here's what the Remote File Access Bot looks like in action:
+
+![Remote File Access Bot Command Line](./images/image1.png)
+*Running the bot*
+
+![Telegram Bot Interaction](./images/image2.png)
+*Using the bot through Telegram*
+
+There you have it!
