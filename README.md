@@ -24,13 +24,13 @@ With this little bot, you can:
 
 ## 🔧 Installation Instructions
 
-1. **Clone This Repository**: Because every hacker worth their salt has a collection of backdoors.
+1. **Clone This Repository**: 
    
    ```bash
    git clone https://github.com/pavan-srikar/Rfiles.git
    ```
 
-2. **Install Dependencies**: We use Python and the `python-telegram-bot` library. Because what’s the point of a backdoor if it’s not user-friendly?
+2. **Install Dependencies**: We use Python and the `python-telegram-bot` library. 
 
    ```bash
    pip install python-telegram-bot
@@ -50,8 +50,13 @@ With this little bot, you can:
 
 4. **Run the Bot**: As a Python script or create an executable using PyInstaller. Execute the script on macOS, Windows, or Linux. Cross-platform infiltration has never been easier.
 
+   for linux and mac
    ```bash
-   python remote_file_access_bot.py
+   python3 RF-linux.py
+   ```
+   for windows
+   ```bash
+   python RFwin.py
    ```
 
    Congratulations! Your bot is now running, ready to do your bidding.
@@ -67,7 +72,7 @@ With this little bot, you can:
    - Create the Executable: Run the following command in your terminal. It will bundle your bot script into a single executable file.
 
      ```bash
-     pyinstaller --onefile remote_file_access_bot.py
+     pyinstaller --onefile RF-linux.py
      ```
 
      This command will create a `dist` directory with your shiny new executable inside. Now you can distribute it like the digital candy it is.
@@ -88,7 +93,7 @@ Here’s your playbook, secret agent:
 
 ## ⚠️ Disclaimer
 
-This tool is intended for *authorized* testing and administrative purposes only. Don't run this for any hacking purposes.
+This tool is intended for *authorized* testing and administrative purposes only. Don't use this for any hacking purposes.
 
 ---
 
