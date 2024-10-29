@@ -3,8 +3,7 @@ import socket
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
-BOT_TOKEN = '7508243166:AAEj57ZNERFN0aP8hsiSa_HBWROuuY7Cdrg'
-
+BOT_TOKEN = 'your api key'
 # Store online devices and selected device
 devices = {}
 selected_device = None
