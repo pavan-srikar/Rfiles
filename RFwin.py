@@ -1,9 +1,3 @@
-# Changes:
-# 1. Updated command `download` to `get`.
-# 2. Updated command `download_dir` to `get_dir_zip`.
-# 3. Added a new function `get_dir` to send files one by one recursively instead of zipping.
-# 4. Converted to a Windows-compatible version.
-
 import os
 import socket
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
