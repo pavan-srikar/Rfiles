@@ -3,7 +3,7 @@ import socket
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, CallbackContext
 
-BOT_TOKEN = 'BOT_TOKEN'
+BOT_TOKEN = '7508243166:AAEj57ZNERFN0aP8hsiSa_HBWROuuY7Cdrg'
 
 # Store online devices and selected device
 devices = {}
