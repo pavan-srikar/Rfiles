@@ -3,7 +3,7 @@ import socket
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
 from multiprocessing.pool import ThreadPool
 
-BOT_TOKEN = 'your api key'
+BOT_TOKEN = 'BOT_TOKEN'
 
 def start(update, context):
     try:
